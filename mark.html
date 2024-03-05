@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<! - 
+/**
+* @name: Assignement1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Laurainda Fan
+**/
+->
+
+<html>
+	
+	<head>
+		<title>Assignment 01 - Mark to Grade</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	</head>
+	
+	<body>
+		
+		<div id="navbar">
+			<a class="active" href="index.html">Home</a>
+			<a href="mark.html">Mark to Grade</a>
+			<a href="staff.html">Staff</a>
+			<a href="weather.html">Weather</a>
+		</div>
+		
+		<div id="home_content" class="div_main">
+			<h2>Mark to Grade Converter</h2>
+			
+			Input a numeric mark (between 0 and 101) to be converted to Grade <br><br>
+			<div class="error_msg"  id="div_mark_error"></div>
+			
+			<form>
+				<label for="mark">Mark:</label>
+				<input type="text" id="mark" name="mark"><br><br>
+				<input type="button" id="conv_grade" value="Convert">
+			</form>
+			
+			<div id="div_grade"></div>
+			
+			
+		</div>
+
+		<div id="footer">
+			<p> © Copyright 2024 Laurainda Fan
+
+		</div>
+		<link rel="stylesheet" href="styles.css">
+		<script src="script.js"></script>		
+	</body>
+		
+</html>

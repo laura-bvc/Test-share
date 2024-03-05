@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<! - 
+/**
+* @name: Assignement1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Laurainda Fan
+**/
+->
+
+<html>
+	
+	<head>
+		<title>Assignment 01 - Weather</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	</head>
+	
+	<body>
+		
+		<div id="navbar">
+			<a class="active" href="index.html">Home</a>
+			<a href="mark.html">Mark to Grade</a>
+			<a href="staff.html">Staff</a>
+			<a href="weather.html">Weather</a>
+		</div>
+		
+		<div id="home_content" class="div_main">
+			<h2>Weather - Temperature Conversion</h2>
+			Input a numeric temperature in °F (Fahrenheit) to be converted to °C (Celsius) and Kelvin <br><br>
+			
+			<div class="error_msg" id="div_temp_error"></div>
+			
+			<form>
+				<label for="tempF">Temperature:</label>
+				<input type="text" id="tempF" name="tempF">°F<br><br>
+				<input type="button" id="conv_temp" value="Convert">
+			</form>
+			
+			<div id="div_temp"></div>
+			
+		</div>
+
+		<div id="footer">
+			<p> © Copyright 2024 Laurainda Fan
+
+		</div>
+		<link rel="stylesheet" href="styles.css">
+		<script src="script.js"></script>		
+	</body>
+		
+</html>
